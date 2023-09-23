@@ -278,3 +278,4 @@ class SenderLayer(ListenerLayer):
     def base64MimeType(encoded):
         result = encoded.split(";base64")[0].split(":")[-1]
         return result
+
